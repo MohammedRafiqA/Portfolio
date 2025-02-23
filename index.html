@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MohammedRafiq A || Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Mohammed Rafiq A</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Mohammed Rafiq A</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.webp" alt="Mohammed Rafiq A profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Mohammed Rafiq A</h1>
+        <p class="section__text__p2">Software Engineer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Mohammed Rafiq A_Resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="window.open('https://www.linkedin.com/in/mohammed-rafiq-4b96422b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' ,'_blank')"
+          />
+          <img
+            src="assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="window.open('https://github.com/MohammedRafiqA','_blank')"
+            
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1" style="padding-bottom: 10px;">Get To Know More</p>
+      <h1 class="title" style="padding-bottom: 15px;">About Me</h1>
+
+        
+          <div class="text-container">
+            <p style="font-size: 25px;">
+              "Passionate Java Developer with a strong foundation in object-oriented programming 
+              and hands-on experience in building user-friendly interfaces. 
+              As a fresher, I have a deep understanding of Java and 
+              a keen interest in UI/UX design using Figma, eager to contribute to software development teams and 
+              create engaging user experiences."
+            </p>
+          </div>
+        </div>
+      </div>
+    <section id="skills" class="skills-section">
+      <h1 class="title">Skills</h1>
+      <div class="text">
+        
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="assets/html-logo.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <img src="assets/css-logo.webp" alt="css logo">
+          <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+          <img src="assets/java-logo.webp" alt="java logo">
+          <span>Java</span>
+        </div>
+        
+        <div class="cell">
+          <img src="assets/figma-logo.webp" alt="node logo">
+          <span>Figma</span>
+        </div>
+      </div>
+    </section>
+    </section>
+    <section id="education">
+      <p class="section__text__p1" style="padding-bottom: 10px;">Explore My</p>
+      <h1 class="title" style="padding-bottom: 10px;">Education</h1>
+      <div class="container">
+        
+        <div class="education">
+            <h3>B.Tech in Information Technology</h3>
+            <p><strong>Vel Tech High Tech Dr. Rangarajan and Dr. Sakunthala Engineering College</strong></p>
+            <p>Year of Passing: 2025</p>
+            <p>CGPA: 8.0 (Present)</p>
+        </div>
+        <div class="education">
+            <h3>Higher Secondary Education (HSC)</h3>
+            <p><strong>St. Anne’s Matric Higher Secondary School</strong></p>
+            <p>Percentage: 74%</p>
+        </div>
+        <div class="education">
+            <h3>SSLC (Secondary School Leaving Certificate)</h3>
+            <p><strong>St. Anne’s Matric Higher Secondary School</strong></p>
+            <p>Year: 2018-2019</p>
+            <p>Percentage: 63%</p>
+        </div>
+    </div>
+                
+      <img
+        src="img/re.jpg"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1" style="padding-bottom: 10px;">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="assets/proj-1.webp"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title"  style="padding-top: 20px;">Data encryption and decryption with RSA algorithm.</h2>
+            <p style="padding-bottom: 15px; line-height: 1.6;" > <b>Description :</b>  In this project I have collaborated closely with team
+              members to seamlessly integrate the RSA algorithm into
+              the project framework, enhancing overall system
+              security by cryptography, asymmetric encryption.
+              Technologies Used : Python , Html , Java script.</p>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="assets/proj-2.webp"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title"  style="padding-top: 20px;">Embedded system for collation of products.</h2>
+            <p style="padding-bottom: 15px; line-height: 1.6;"> <b>Description :</b>  Led a team in developing an embedded system for
+              collating product data from multiple e-commerce
+              websites. Utilized Natural Language Processing (NLP)
+              techniques to enhance user experience and improve data
+              accuracy
+              Technologies Used : Python , HTML / CSS, Django.</p>
+            
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="assets/proj-3.webp"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title" style="padding-top: 20px;">Advance price forecasting invention system 
+              for Essential food Commodities</h2>
+              <p style="line-height: 1.6;"> <b>Description :</b>  Food price volatility is a global challenge with serious consequences, 
+                including food insecurity and economic instability.
+                 Factors like climate change, supply chain disruptions, 
+                 and geopolitical events drive fluctuations, impacting consumers,
+                  producers, and governments. Technologies used : Ml - Arima, Dl - lstm, Python, React js, Pandas numpy</p>
+            
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:mohammedrafiq.a142@gmail.com">mohammedrafiq.a142@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/mohammed-rafiq-4b96422b7?utm_source=share&utm_
+            campaign=share_via&utm_content=profile&utm_medium=android_app " target ="_blank">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+    </footer>
+    
+  </body>
+</html>
